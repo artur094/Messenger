@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appbar">#3F51B5</color>
+    <color name="notificationbar">#303F9F</color>
+    <color name="edittext_chat">#FAFAFA</color>
+    <color name="circle">#1E88E5</color>
+    <color name="circle_text">#FAFAFA</color>
+    <color name="my_message">#FAFAFA</color>
+    <color name="my_message_text">#000000</color>
+    <color name="other_message">#1E88E5</color>
+    <color name="other_message_text">#FAFAFA</color>
+    <color name="chat_backgroud">#EEEEEE</color>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="Contacts" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="Messages" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Telegram" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_settings_sms"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Messages Settings" />
+            <item
+                android:id="@+id/nav_settings_telegram"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Telegram Settings" />
+
+            <item
+                android:id="@+id/nav_settings_app"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Settings" />
+        </menu>
+    </item>
+
+</menu>
